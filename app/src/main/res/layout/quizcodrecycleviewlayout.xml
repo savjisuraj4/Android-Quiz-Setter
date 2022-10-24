@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:layout_marginBottom="10dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:minWidth="50sp"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <TextView
+                    android:id="@+id/sr_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text=" 1"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:textColor="@color/purple_700"
+                    android:textSize="45sp"
+                    android:gravity="center_horizontal|center_vertical"/>
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
+                    <TextView
+                android:id="@+id/quizcoderecycleviewtextview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="QM123456"
+                android:fontFamily="@font/josefinsans_bold"
+                android:layout_marginStart="15dp"
+                android:textSize="35sp"
+                android:gravity="center_vertical"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/deletequizcode"
+                        android:layout_width="match_parent"
+                        android:drawableEnd="@drawable/ic_baseline_delete_24"
+                        android:background="@color/white"
+                        android:layout_height="match_parent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessParent">
+                    <TextView
+                        android:id="@+id/startdate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Start:19/05/2021"
+                        android:layout_marginStart="15dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:gravity="center_vertical"/>
+                    <TextView
+                        android:id="@+id/enddate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="End:19/05/2021"
+                        android:layout_marginStart="35dp"
+                        android:textSize="15sp"
+                        android:textColor="@color/black"
+                        android:gravity="center_vertical"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

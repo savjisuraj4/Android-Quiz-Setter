@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LoginScreen.register" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="android:autofilledHighlight">@android:color/transparent</item>
+    </style>
+</resources>
