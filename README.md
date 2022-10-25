@@ -8,6 +8,8 @@
   
   📌In this application user can delete the quiz and question also.
   
+  📌In this application for authentication "firebase-authentication" is used and for storing quiz and quiz question "firebase-firestore" and "firebase Realtime database"   is used.
+  
 📃##List of all Activities in the app :
     <ol>
       <li> <b>MainActivity </b>– displays Login Screen of application.
@@ -17,10 +19,7 @@
       <li><b>SetQuestions</b>-Activity to add question
     </ol>
     
-    
-
-
-
+   
 https://user-images.githubusercontent.com/98837139/197749079-755003dd-7bd6-4ba8-a4a2-759776d72ec0.mp4
 
 
