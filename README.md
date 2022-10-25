@@ -14,5 +14,14 @@
       <li><b>AfterLogin0</b>-displays list of quiz created by user.
       <li><b>AfterLogin</b>-Activity to add quiz.
       <li><b>Questions</b>-displays list of question in that quiz.
-        <li><b>SetQuestions</b>-Activity to add question
+      <li><b>SetQuestions</b>-Activity to add question
     </ol>
+    
+    
+
+
+
+https://user-images.githubusercontent.com/98837139/197749079-755003dd-7bd6-4ba8-a4a2-759776d72ec0.mp4
+
+
+
