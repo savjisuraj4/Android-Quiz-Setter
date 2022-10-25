@@ -9,7 +9,9 @@
   📌In this application user can delete the quiz and question also.
   
   📌In this application for authentication <b>firebase-authentication</b> is used and for storing quiz and quiz question <b>firebase-firestore</b> and <b>firebase Realtime database</b> is used.
+  <p>
   
+  </p>
 📃List of all Activities in the app :
     <ol>
       <li> <b>MainActivity </b>– displays Login Screen of application.
@@ -20,7 +22,9 @@
     </ol>
     
 <b>Note</b>-User has to use same login credentials for setting and attempting the Quiz.   
-   
+   <p>
+  
+  </p>
    
    
    
