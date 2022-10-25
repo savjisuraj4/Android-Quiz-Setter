@@ -10,7 +10,9 @@
   
 📃##List of all Activities in the app :
     <ol>
-      <li> <b>Main </b>– displays Login Screen of application.
-      <li><b>After Login</b>-displays list of quiz created by user.
+      <li> <b>MainActivity </b>– displays Login Screen of application.
+      <li><b>AfterLogin0</b>-displays list of quiz created by user.
+      <li><b>AfterLogin</b>-Activity to add quiz.
       <li><b>Questions</b>-displays list of question in that quiz.
+        <li><b>SetQuestions</b>-Activity to add question
     </ol>
