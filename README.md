@@ -8,7 +8,7 @@
   
   📌In this application user can delete the quiz and question also.
   
-  📌In this application for authentication "firebase-authentication" is used and for storing quiz and quiz question "firebase-firestore" and "firebase Realtime database"   is used.
+  📌In this application for authentication <b>firebase-authentication</b> is used and for storing quiz and quiz question <b>firebase-firestore,/b> and <b>firebase Realtime database</b> is used.
   
 📃##List of all Activities in the app :
     <ol>
