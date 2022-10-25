@@ -10,7 +10,7 @@
   
   📌In this application for authentication <b>firebase-authentication</b> is used and for storing quiz and quiz question <b>firebase-firestore</b> and <b>firebase Realtime database</b> is used.
   
-📃##List of all Activities in the app :
+###📃List of all Activities in the app :
     <ol>
       <li> <b>MainActivity </b>– displays Login Screen of application.
       <li><b>AfterLogin0</b>-displays list of quiz created by user.
